@@ -1,0 +1,117 @@
+.about-container {
+}
+
+.flex-container {
+  display: flex;
+  padding-left: 150px;
+  padding-top: 76px;
+}
+
+.head {
+  width: 535px;
+  height: 140px;
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 70px;
+  color: #0b132a;
+}
+
+.discription {
+  width: 520px;
+  height: 60px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4f5665;
+}
+
+.getstarted {
+  width: 250px;
+  height: 60px;
+
+  margin-top: 26.77px;
+  background: #f53838;
+  border-radius: 10px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+  color: #ffffff;
+  box-shadow: rgba(245, 56, 56, 0.35);
+}
+
+.study {
+  width: 611.24px;
+  height: 382.44px;
+  left: 745.76px;
+  margin-top: 100.11px;
+}
+
+.services {
+  width: 1140px;
+  height: 200px;
+  margin-left: 150px;
+  margin-top: 100px;
+  display: flex;
+  background: #ffffff;
+  gap: 230px;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 1px 10px #eaedf0;
+}
+
+.small-container {
+  display: flex;
+  gap: 36px;
+  align-items: center;
+}
+
+.service-logo {
+  width: 55px;
+  height: 55px;
+  background: #ffecec;
+  border-radius: 70px;
+}
+
+.num {
+  width: 49px;
+  height: 30px;
+  margin: 0px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #0b132a;
+}
+
+.num-name {
+  width: 53px;
+  height: 30px;
+  margin: 0px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #4f5665;
+}
+
+@media only screen and (max-width: 850px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  .services {
+    width: 600px;
+    display: flex;
+    gap: 70px;
+    justify-content: start;
+  }
+}

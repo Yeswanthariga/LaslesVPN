@@ -1,0 +1,122 @@
+footer {
+  height: 400px;
+  display: flex;
+}
+
+.footer-info {
+  width: 350px;
+  margin-left: 150px;
+  margin-top: 65px;
+}
+
+.footer-company {
+  width: 149px;
+  height: 36.23px;
+
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 35px;
+  height: 36.23px;
+}
+
+.footer-logo-name {
+  width: 104px;
+  height: 24px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0b132a;
+}
+
+.footer-logo-para {
+  width: 340px;
+  height: 61.57px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4f5665;
+}
+
+.footer-brand {
+  display: flex;
+  margin-top: 30px;
+  gap: 20px;
+  align-items: center;
+}
+
+.brand-logo {
+  border-radius: 50%;
+}
+
+.copyrights {
+  width: 132px;
+  height: 30px;
+  margin-top: 30px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #afb5c0;
+}
+
+.footer-help {
+  display: flex;
+}
+
+.footer-product {
+  margin-left: 100px;
+  margin-top: 45px;
+}
+
+.product {
+  width: 105px;
+  height: 30px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  color: #0b132a;
+}
+
+.product-list {
+  width: 124px;
+  height: 30px;
+  display: flex;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4f5665;
+}
+
+.footer-engage {
+  margin-left: 130px;
+  margin-top: 45px;
+}
+
+.footer-earn {
+  margin-left: 180px;
+  margin-top: 45px;
+}
+
+@media only screen and (max-width: 850px) {
+  footer {
+    height: 60vh;
+    flex-direction: column-reverse;
+  }
+
+  .footer-info {
+    margin-left: 280px;
+  }
+}

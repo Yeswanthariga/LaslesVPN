@@ -1,0 +1,23 @@
+.sponsor-container {
+  width: 1135.64px;
+  height: 208.32px;
+  padding-left: 145px;
+  padding-top: 80px;
+  display: flex;
+  gap: 50px;
+}
+
+.sponsor-name {
+  width: 190px;
+  height: 60px;
+}
+
+@media only screen and (max-width: 850px) {
+  .sponsor-container {
+    height: 250px;
+    padding-left: 30px;
+    justify-content: center;
+    width: 850px;
+    flex-wrap: wrap;
+  }
+}

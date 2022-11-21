@@ -1,0 +1,40 @@
+.testimonial-container {
+  width: 610.77px;
+  height: 277.2px;
+}
+
+.testimonial-head {
+  width: 447.81px;
+  height: 100px;
+  padding-left: 496.1px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 50px;
+  text-align: center;
+  color: #0b132a;
+}
+
+.testimonial-para {
+  width: 555px;
+  height: 60px;
+  padding-left: 442.5px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #4f5665;
+}
+
+@media only screen and (max-width: 850px) {
+  .testimonial-head {
+    padding-left: 230px;
+  }
+
+  .testimonial-para {
+    padding-left: 170px;
+  }
+}

@@ -1,0 +1,130 @@
+navbar {
+  display: flex;
+  position: sticky !important;
+  top: 0;
+  margin: 0;
+  width: auto;
+  /* height: 20vh; */
+  background-color: white;
+}
+
+.logo {
+  display: flex;
+  padding-left: 150px;
+}
+
+.logo-img {
+  width: 35px;
+  height: 36.23px;
+  padding-top: 50px;
+}
+.logo-name {
+  width: 104px;
+  height: 24px;
+  padding-left: 10px;
+  margin-top: 56.12px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0b132a;
+}
+
+.links {
+  display: flex;
+  gap: 40px;
+  width: 46px;
+  height: 19px;
+  align-items: center;
+  margin-left: 157px;
+  padding-top: 60px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.main-links {
+  display: flex;
+  gap: 40px;
+  width: 460px;
+  height: 19px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+a {
+  color: #4f5665;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(18, 18, 19);
+}
+
+.sign-btn {
+  display: flex;
+  padding-top: 20px;
+  align-items: center;
+  gap: 30px;
+}
+
+.sign-in {
+  width: 53px;
+  height: 19px;
+  align-items: center;
+  padding-left: 150px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #0b132a;
+}
+
+.sign-up {
+  width: 150px;
+  height: 45px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f53855;
+  border: 1px solid #f53855;
+  background-color: white;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.sign-up:hover {
+  background-color: #f53855;
+  color: white;
+}
+
+@media only screen and (max-width: 850px) {
+  navbar {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 28vh;
+  }
+
+  .logo {
+    margin-left: 160px;
+  }
+
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .main-links {
+    padding-left: 30px;
+  }
+}

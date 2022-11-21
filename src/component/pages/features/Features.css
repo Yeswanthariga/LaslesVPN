@@ -1,0 +1,72 @@
+.Feature-container {
+  display: flex;
+  gap: 160px;
+  margin-left: 150.52px;
+}
+
+.feature-left {
+  width: 508.12px;
+  height: 414.71px;
+
+  margin-top: 96.38px;
+}
+
+.feature-right {
+  width: 430px;
+  margin-top: 150px;
+}
+
+.feature-head {
+  width: 383.41px;
+  height: 100px;
+  margin-top: 0px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 50px;
+  color: #0b132a;
+}
+
+.para-small {
+  width: 427.88px;
+  height: 60px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4f5665;
+}
+
+.small-feature {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tick {
+  width: 24px;
+  height: 24px;
+}
+
+.feature-contant {
+  width: 179px;
+  height: 30px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #4f5665;
+}
+
+@media only screen and (max-width: 850px) {
+  .Feature-container {
+    flex-direction: column;
+  }
+
+  .feature-right {
+    margin-top: 0px;
+  }
+}
